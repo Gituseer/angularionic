@@ -1,0 +1,105 @@
+
+
+html{
+
+	font-family:'Roboto Slab', serif;
+}
+
+#block1{
+	height: 70px;
+    background-color: grey;
+    font-family:'Roboto Slab', serif;
+
+}
+ 
+#block1>div {
+	display: inline-block   ;
+}
+
+#block1>
+
+.flotarizquierda{
+	float: left;
+}
+
+.flotarcentro{
+	position: relative;
+	left: 30%;
+}
+
+.flotarderecha{
+	float: right;
+}
+
+#block2>div {
+	display: inline-block;
+}
+
+#block2{
+	height: 500px;
+}
+
+#header2{
+	margin: 0;
+	padding: 0;
+	width: 29%;
+}
+
+#bottomimage{
+	margin: 0;
+	padding: 0;
+	width: 69%;
+	height: 100%;
+	background-image: url('../image/image1.png');
+    
+}
+
+#block3>div {
+	display: inline-block;
+}
+
+#block3{
+	height: 400px;
+}
+
+#header3{
+	margin: 0;
+	padding: 0;
+	width: 29%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	
+
+}
+
+#secondimage{
+	margin: 0;
+	padding: 0;
+	width: 40%;
+	height: 80%;
+	background-image: url('../image/fotka-surface-modules2.jpg');
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	
+
+}
+
+
+
+
+
+
+
+
+@font-face{
+
+
+           font-family:'Roboto Slab', serif;
+           src: url('Roboto Slab') format("truetype");
+
+ 
+ }

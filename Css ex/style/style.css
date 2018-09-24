@@ -1,0 +1,63 @@
+/*comentarios
+*/
+
+
+h1, p{
+	color:red; 
+}
+
+.blue{color:blue;
+
+}
+
+#city{
+
+	color: green;
+	font-size: 50px;  
+
+}
+
+[data-categoria="meats"]{background-color: purple;}
+
+[data-precio="200"]{color: orange;}
+
+li:hover{
+	color: silver;
+}
+
+#google{color: red;
+
+}
+
+#google:visited{
+	color: orange;
+}
+
+#pricipal{
+	border: 1px solid green;
+	background-color: gold;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 5px;
+	
+
+
+}
+
+#second{
+	margin-top: 20px;
+	background-color: pink;
+	border: 1px solid green
+}
+
+#contenedor{
+	border: 1px solid blue;
+	background-color: green;
+}
+
+p{
+	font-family: 'Roboto Mono', monospace;
+
+}
+
