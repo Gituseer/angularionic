@@ -1,0 +1,28 @@
+<h1>Articulos</h1>
+
+<table class="table table-hover table-striped table-bordered">
+
+	<thead class="thead-dark">
+		<th>Titulo</th>
+		<th>Editar</th>
+		<th>Eliminar</th>
+	</thead>
+
+	<tbody>
+		<tr *ngFor="let articulo of articulos">
+			<td>
+				<a [routerLink]="
+				['/articulo',articulo.id]">
+			        {{articulo.titulo}}
+	            </a>
+	    </td>
+			
+			<td><button class="btn btn-warning">Editar</button></td>
+			<td><button class="btn btn-danger" (click)="
+				eliminarArticulo(articulo.id)">Eliminar
+			</button>
+		</td>
+	</tr>
+
+	</tbody>
+</table>

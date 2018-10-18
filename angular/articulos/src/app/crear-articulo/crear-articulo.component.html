@@ -1,0 +1,16 @@
+<h1>Crear articulo</h1>
+<form>
+	<div class="form-group">
+		<label>Titulo</label>
+		<input type="text" name="titulo" class="
+		form-control" [(ngModel)]="articulo.titulo">	
+	</div>
+    
+    <div class="form-group">
+    	<label>Contenido</label>
+    	<textarea name="contenido" class="form-control" 
+    	[(ngModel)]="artiiculo.contenido"></textarea>
+    </div>
+    <button class="btn btn-info" (click)="
+    crearArticulo()">Crear articulo</button>
+</form>
